@@ -12,3 +12,9 @@ Michelle Tam - Password creation check
 
 Shreya Marria - Password handler check 
                 Worked on accessing historicsl project and task descriptions
+
+Taequanson Clarke - Comment Bulletin Board 
+                    Worked on displaying comments
+                    Worked on input for adding new comments
+                    Worked on a database for storing comments on current projects
+                    Worked on a database for retrieving comments from previous projects
