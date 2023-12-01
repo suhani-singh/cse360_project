@@ -166,7 +166,7 @@ public class SignUpController {
 	
 	/****************************************************************************************************************
 	 * Shreya Marria:
-	 * public void userLogIn used to check the login requirements are met, if so then duo push will be activated.
+	 * public void userLogIn used to check the login requirements are met, if so then duo push will be activated. 
 	 ****************************************************************************************************************/
     
     public void userLogIn(ActionEvent event) throws IOException //method that correlates to the "Log In" button
@@ -187,11 +187,11 @@ public class SignUpController {
         }
         else if(user.isEmpty() && pass.isEmpty()) //check if no information is added, prompted for accessibility 
         {
-            wrongLogIn.setText("Please enter your information"); //print
+            wrongLogIn.setText("Please enter your information"); //print accordingly
         }
         else //if the wrong password or User name is entered
         {
-            wrongLogIn.setText("Wrong username or password!"); //print
+            wrongLogIn.setText("Wrong username or password!"); //print accordingly
         }
         
         if (success == true ) {
