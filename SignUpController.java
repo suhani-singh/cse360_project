@@ -15,6 +15,7 @@ import javafx.scene.control.TextField;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
 
+// This controller handles all sign up checks
 public class SignUpController {
 	
 	// All Variable Declarations
