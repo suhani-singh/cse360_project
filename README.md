@@ -18,3 +18,4 @@ Taequanson Clarke - Comment Bulletin Board
                     Worked on input for adding new comments
                     Worked on a database for storing comments on current projects
                     Worked on a database for retrieving comments from previous projects
+Suhani Singh - SQL Injection Detection in login, Project Runs Table with updating/adding/removing runs
