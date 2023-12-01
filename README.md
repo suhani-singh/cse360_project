@@ -9,3 +9,6 @@ Ketaki Patil - Role based Access Control
 
 Michelle Tam - Password creation check
                Worked on loading historical tasks
+
+Shreya Marria - Password handler check 
+                Worked on accessing historicsl project and task descriptions
