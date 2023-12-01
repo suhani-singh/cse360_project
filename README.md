@@ -6,3 +6,6 @@ Members: Shannen Aganon, Taequanson Clarke, Shreya Marria, Ketaki Patil, Suhani 
 Comtribution:
 Ketaki Patil - Role based Access Control
                Accessing historical project time duration
+
+Michelle Tam - Password creation check
+               Worked on loading historical tasks
