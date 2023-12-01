@@ -1,4 +1,4 @@
-//Implements Switching Scenes -- Shannen Aganon
+//Implements Switching Scenes and implements functionality to the DuoPush System -- Shannen Aganon
 
 package application;
 
