@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: ivory;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.PokerController">
+   <children>
+      <Label alignment="CENTER" layoutX="14.0" layoutY="72.0" prefHeight="25.0" prefWidth="322.0" text="Welcome to Planning Poker" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="72.0">
+         <font>
+            <Font name="Sitka Text" size="24.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="354.0" prefHeight="400.0" prefWidth="246.0" style="-fx-background-color: lavender;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="354.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Text layoutX="26.0" layoutY="173.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Start a New Round" AnchorPane.rightAnchor="25.666656494140625">
+               <font>
+                  <Font name="Sitka Text" size="22.0" />
+               </font>
+            </Text>
+            <Button fx:id="start" alignment="CENTER" layoutX="91.0" layoutY="200.0" mnemonicParsing="false" onAction="#startNewRound" prefHeight="35.0" prefWidth="65.0" text="Start" AnchorPane.rightAnchor="90.0" />
+            <Button fx:id="back2" layoutX="183.0" layoutY="361.0" mnemonicParsing="false" onAction="#backToLanding" prefHeight="28.0" prefWidth="46.0" text="Back" AnchorPane.bottomAnchor="11.0" AnchorPane.rightAnchor="17.0" />
+         </children>
+      </AnchorPane>
+      <Text layoutX="76.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Choose Historal Data" AnchorPane.bottomAnchor="265.0" AnchorPane.leftAnchor="76.0" AnchorPane.rightAnchor="326.47999572753906" AnchorPane.topAnchor="114.86222267150879">
+         <font>
+            <Font name="Sitka Text" size="20.0" />
+         </font>
+      </Text>
+      <Button fx:id="loadPastTasks211" layoutX="31.0" layoutY="172.0" mnemonicParsing="false" onAction="#lookAtHistory" prefHeight="35.0" prefWidth="129.0" text="Project Progress " AnchorPane.leftAnchor="31.0" />
+      <Button fx:id="loadPastTasks" layoutX="195.0" layoutY="172.0" mnemonicParsing="false" onAction="#lookAtHistory" prefHeight="35.0" prefWidth="129.0" text="Past Approaches" AnchorPane.leftAnchor="195.0" />
+      <Button fx:id="loadPastTasks1" layoutX="31.0" layoutY="240.0" mnemonicParsing="false" onAction="#lookAtHistory" prefHeight="35.0" prefWidth="129.0" text="Team Member Logs" AnchorPane.leftAnchor="31.0" />
+      <Button fx:id="loadPastTasks2" layoutX="195.0" layoutY="240.0" mnemonicParsing="false" onAction="#lookAtHistory" prefHeight="35.0" prefWidth="129.0" text="Past Task Duration" AnchorPane.leftAnchor="195.0" />
+      <Button fx:id="loadPastTasks21" layoutX="31.0" layoutY="308.0" mnemonicParsing="false" onAction="#lookAtHistory" prefHeight="35.0" prefWidth="129.0" text="Past Project Details" AnchorPane.leftAnchor="31.0" />
+      <Button fx:id="loadPastTasks212" layoutX="195.0" layoutY="308.0" mnemonicParsing="false" onAction="#lookAtHistory" prefHeight="35.0" prefWidth="129.0" text="Project Timelines" AnchorPane.leftAnchor="195.0" />
+   </children>
+</AnchorPane>

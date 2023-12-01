@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="574.0" prefWidth="1040.0" style="-fx-background-color: lightgreen;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.DataController">
+   <children>
+      <TableView fx:id="table_tasks" layoutX="165.0" prefHeight="574.0" prefWidth="878.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="165.0" AnchorPane.rightAnchor="-3.0" AnchorPane.topAnchor="0.0">
+        <columns>
+            <TableColumn fx:id="timelines_col" prefWidth="179.5" text="Project Timelines" />
+            <TableColumn fx:id="tasks_col" prefWidth="232.0" text="Past Tasks" />
+            <TableColumn fx:id="approaches_col" prefWidth="247.5" text="Past Approaches" />
+            <TableColumn fx:id="logs_col" prefWidth="218.0" text="Team Member Logs" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

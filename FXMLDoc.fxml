@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="953.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControllerTable">
+   <children>
+      <AnchorPane layoutX="1.0" prefHeight="550.0" prefWidth="206.0" style="-fx-background-color: #7CB9E8;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button fx:id="addButton" layoutX="65.0" layoutY="323.0" mnemonicParsing="false" onAction="#added" prefHeight="31.0" prefWidth="75.0" text="Add" />
+            <TextField fx:id="projectidtext" layoutX="28.0" layoutY="44.0" />
+            <Label layoutX="80.0" layoutY="20.0" text="ProjectID" />
+            <Label layoutX="92.0" layoutY="85.0" text="Task" />
+            <TextField fx:id="tasktext" layoutX="30.0" layoutY="109.0" />
+            <CheckBox fx:id="taskcheckbox" layoutX="6.0" layoutY="113.0" mnemonicParsing="false" />
+            <Button fx:id="updateButton" layoutX="48.0" layoutY="371.0" mnemonicParsing="false" onAction="#updated" prefHeight="31.0" prefWidth="110.0" text="Update Status" />
+            <Button fx:id="refreshButton" layoutX="48.0" layoutY="422.0" mnemonicParsing="false" onAction="#refreshed" prefHeight="31.0" prefWidth="110.0" text="Refresh Table" />
+            <TextField fx:id="memberstext" layoutX="28.0" layoutY="175.0" />
+            <Label layoutX="79.0" layoutY="152.0" text="Members" />
+            <Label layoutX="62.0" layoutY="218.0" text="Past Complaints" />
+            <TextField fx:id="complaintstext" layoutX="30.0" layoutY="241.0" />
+            <Button fx:id="back" layoutX="14.0" layoutY="511.0" mnemonicParsing="false" onAction="#backToPlanningPoker" text="Back" />
+         </children>
+      </AnchorPane>
+      <TableView fx:id="table_view" layoutX="206.0" prefHeight="550.0" prefWidth="749.0">
+        <columns>
+          <TableColumn fx:id="col_ID" prefWidth="85.5" text="Project ID" />
+          <TableColumn fx:id="col_task" minWidth="0.0" prefWidth="182.5" text="Task" />
+            <TableColumn fx:id="col_members" prefWidth="133.5" text="Members on Project" />
+            <TableColumn fx:id="col_complaints" prefWidth="222.5" text="Past Complaints" />
+          <TableColumn fx:id="col_status" minWidth="0.0" prefWidth="124.0" text="Status" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
